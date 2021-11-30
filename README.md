@@ -38,7 +38,7 @@ CMiner 21.12 requires only a small set of mandatory parameters to start its work
 | --server | The address of the mining pool to connect to. <br />Format: (tls://)server:port |
 | --wallet | Your wallet address to mine to |
 | --worker | The worker name associated with your mining rig |
-| --nicehash | A switch to toggle to the Nicehash stratum protocol |
+| --nicehash | An optional switch to enable the Nicehash stratum protocol |
 
 Example configuration scripts for the most common mining pools are shipped in the distribution package.
 
@@ -50,7 +50,7 @@ CMiner 21.12只需要一小部分强制性参数就可以开始工作.
 | --server| 要连接的矿池的地址。<br />格式:(tls://)服务器地址 : 端口 |
 | --wallet | 你的钱包地址，用于挖矿 |
 | --worker |与你的挖矿设备相关的工人名字
-| --nicehash |切换到Nicehash分层协议的开关 |
+| --nicehash |一个可选的开关，以启用Nicehash采矿协议 |
 
 最常见的矿池的配置脚本示例已在发行包中提供。
 
@@ -62,6 +62,6 @@ CMiner 21.12只需要一小部分强制性参数就可以开始工作.
 | --server| Адрес пула для майнинга, к которому необходимо подключиться. <br />Формат: (tls://)адрес сервера : порт |
 | --wallet | Адрес вашего кошелька, на который будет производиться добыча
 | --worker | Имя рабочего, связанного с вашей майнинговой установкой |
-| --nicehash | Переключатель для переключения на протокол страт Nicehash |
+| --nicehash | Дополнительный переключатель для включения протокола добычи Nicehash |
 
 Примеры сценариев конфигурации для наиболее распространенных майнинговых пулов поставляются в дистрибутиве.
