@@ -38,6 +38,9 @@ CMiner 21.12 requires only a small set of mandatory parameters to start its work
 | --server | The address of the mining pool to connect to. <br />Format: (tls://)server:port |
 | --wallet | Your wallet address to mine to |
 | --worker | The worker name associated with your mining rig |
+| --devices | 	Optional parameter to select the graphic cards for mining| 
+| --api	| Optional parameter to turn on the API. Format: apihost:apiport| 
+| --algo | 	Optional parameter to switch to other algorithms. Currently supported: eth and etc.| 
 | --nicehash | An optional switch to enable the Nicehash stratum protocol |
 
 Example configuration scripts for the most common mining pools are shipped in the distribution package.
@@ -49,7 +52,10 @@ CMiner 21.12只需要一小部分强制性参数就可以开始工作.
 | ------------- |-------------| 
 | --server| 要连接的矿池的地址。<br />格式:(tls://)服务器地址 : 端口 |
 | --wallet | 你的钱包地址，用于挖矿 |
-| --worker |与你的挖矿设备相关的工人名字
+| --worker |与你的挖矿设备相关的工人名字| 
+| --devices	| 可选参数，选择用于采矿的显卡| 
+| --api	| 打开API的可选参数。格式：apihost:apiport| 
+| --algo	| 用于切换到其他算法的可选参数。目前支持：eth和etc| 
 | --nicehash |一个可选的开关，以启用Nicehash采矿协议 |
 
 最常见的矿池的配置脚本示例已在发行包中提供。
@@ -60,8 +66,11 @@ CMiner 21.12只需要一小部分强制性参数就可以开始工作.
 | **Параметр** | **Описание** |
 | ------------- |-------------|
 | --server| Адрес пула для майнинга, к которому необходимо подключиться. <br />Формат: (tls://)адрес сервера : порт |
-| --wallet | Адрес вашего кошелька, на который будет производиться добыча
+| --wallet | Адрес вашего кошелька, на который будет производиться добыча |
 | --worker | Имя рабочего, связанного с вашей майнинговой установкой |
+| --devices	| Дoпoлнитeльный пapaмeтp для выбopa гpaфичecкиx кapт для мaйнингa| 
+| --api	| Дoпoлнитeльный пapaмeтp для включeния API. Фopмaт: apihost:apiport| 
+| --algo	| Дoпoлнитeльный пapaмeтp для пepeключeния нa дpyгиe aлгopитмы. B нacтoящee вpeмя пoддepживaютcя: eth и etc.| 
 | --nicehash | Дополнительный переключатель для включения протокола добычи Nicehash |
 
 Примеры сценариев конфигурации для наиболее распространенных майнинговых пулов поставляются в дистрибутиве.
